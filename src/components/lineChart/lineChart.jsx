@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Chart from "react-apexcharts";
 import img from '../../assets/lineChart/Vector.svg'
+import './LineChart.css'
 class App extends Component {
   constructor(props) {
     super(props);
@@ -35,11 +36,24 @@ class App extends Component {
 
  
         xaxis: {
-                  categories: ['Jan', 'Feb', 'Mar', 'Apr','May','Jun', 'July','Aug','Sep','Oct','Nov','Dec']
+                  
+          categories: ['Jan', 'Feb', 'Mar', 'Apr','May','Jun', 'July','Aug','Sep','Oct','Nov','Dec'],
+          style: {
+            fontFamily: 'Product Sans',
+            color: ['#BCBCBC'],
+            fontSize: '13px',
+            cssClass: 'xaxis',
+        },
+        fill: {
+          opacity: 1,
+        
+        },
+
                 },
               
         fill: {
-          opacity: 1
+          opacity: 1,
+          color: ['#BCBCBC'],
         
         },
 

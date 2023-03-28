@@ -1,18 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+ 
+@font-face {
+  font-family: 'Product Sans';
+  src: url('./Fonts/font.ttf');
+}
 *{
-  font-family: 'Open Sans', sans-serif;
-  box-sizing: border-box;
+  font-family: 'Product Sans';
 }
-/* .apexcharts-bar-area,
-.apexcharts-pie-area.apexcharts-donut-slice-1{
-fill:#5932EA;
-}
-.apexcharts-pie-area.apexcharts-donut-slice-0{
-  fill:#16C098;
-} */
 .apexcharts-bar-area{
   clip-path: inset(0% 0% 0% 0% round 8px);
-  /* clip-path: inset(0% 0% -4px 0% round 10px);  */
+}
+body{
+  background-color:  #F8F8F8;
 }

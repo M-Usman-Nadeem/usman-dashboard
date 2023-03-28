@@ -39,7 +39,7 @@ const sidebar = () => {
       <section
        
         style={{ boxShadow: "0px 20px 50px rgba(220, 224, 249, 0.5)" }}
-        className={`overflow-auto fixed top-auto pl-[35px] h-full z-40 w-[273px] p-4 transition-transform  ${
+        className={`overflow-auto fixed top-[102px] pl-[35px] h-full z-40 w-[273px] p-4  transition-transform  ${
           sidebar ? "-translate-x-full" : " "
         }  md:translate-x-0 bg-white dark:bg-gray-800" tabindex="-1" aria-labelledby="drawer-navigation-label`}
       >
@@ -72,15 +72,17 @@ const sidebar = () => {
           </div>
           <img src={svg3} alt="" />
         </div>
-        <div className="py-4 overflow-y-auto">
+        <div className="py-4 overflow-y-auto font-bold text-[1.1875rem]">
           <ul className="flex flex-col gap-10  ">
             <li>
               <a
                 href="#"
-                className="flex items-center p-2 text-base font-normal  hover:bg-[#5932EA] hover:text-white rounded-lg dark:hover:bg-[#5932EA]"
+                className="flex  items-center p-2 text-base font-normal text-[#5932EA]  hover:bg-[#5932EA] hover:text-white rounded-lg dark:hover:bg-[#5932EA]"
               >
                 <img src={svg1} alt="" />
-                <span className="ml-3">Dashboard</span>
+                <span className="ml-3 font-bold text-[1.1875rem]  ">Dashboard</span>
+                <div className="bg-[#5932EA] w-[6px] h-[40px] absolute left-0 rounded-tr-lg rounded-br-lg"> </div>
+
               </a>
             </li>
             <li>
@@ -89,7 +91,7 @@ const sidebar = () => {
                 className="flex items-center p-2 text-base font-normal  hover:bg-[#5932EA] hover:text-white rounded-lg dark:hover:bg-[#5932EA]"
               >
                 <img src={svg6} alt="" />
-                <span className="ml-3">Finance</span>
+                <span className="ml-3 font-bold text-[1.1875rem]">Finance</span>
               </a>
             </li>
             <li>
@@ -98,7 +100,7 @@ const sidebar = () => {
                 className="flex items-center p-2 text-base font-normal  hover:bg-[#5932EA] hover:text-white rounded-lg dark:hover:bg-[#5932EA]"
               >
                 <img src={svg11} alt="" />
-                <span className="ml-3">Employees</span>
+                <span className="ml-3 font-bold text-[1.1875rem]">Employees</span>
               </a>
             </li>
             <li>
@@ -107,7 +109,7 @@ const sidebar = () => {
                 className="flex items-center p-2 text-base font-normal  hover:bg-[#5932EA] hover:text-white rounded-lg dark:hover:bg-[#5932EA]"
               >
                 <img src={svg4} alt="" />
-                <span className="ml-3">Company</span>
+                <span className="ml-3 font-bold text-[1.1875rem]">Company</span>
               </a>
             </li>
             <li>
@@ -116,7 +118,7 @@ const sidebar = () => {
                 className="flex items-center p-2 text-base font-normal  hover:bg-[#5932EA] hover:text-white rounded-lg dark:hover:bg-[#5932EA]"
               >
                 <img src={svg8} alt="" />
-                <span className="ml-3">Candidate</span>
+                <span className="ml-3 font-bold text-[1.1875rem]">Candidate</span>
               </a>
             </li>
             <li>
@@ -125,7 +127,7 @@ const sidebar = () => {
                 className="flex items-center p-2 text-base  border-[#E0E0E0] font-normal  hover:bg-[#5932EA] hover:text-white rounded-lg dark:hover:bg-[#5932EA]"
               >
                 <img src={svg5} alt="" />
-                <span className="ml-3">Calendar</span>
+                <span className="ml-3 font-bold text-[1.1875rem]">Calendar</span>
               </a>
             </li>
             <li className="border-b-[1px] border-dashed ">
@@ -137,7 +139,7 @@ const sidebar = () => {
                 className="flex items-center p-2 text-base font-normal  hover:bg-[#5932EA] hover:text-white rounded-lg dark:hover:bg-[#5932EA]"
               >
                 <img src={svg7} alt="" />
-                <span className="ml-3">Profile</span>
+                <span className="ml-3 font-bold text-[1.1875rem]">Profile</span>
               </a>
             </li>
 
@@ -147,7 +149,7 @@ const sidebar = () => {
                 className="flex items-center p-2  mb-  text-base font-normal  hover:bg-[#5932EA] hover:text-white rounded-lg dark:hover:bg-[#5932EA]"
               >
                 <img src={svg9} alt="" />
-                <span className="ml-3">Setting</span>
+                <span className="ml-3 font-bold text-[1.1875rem]">Setting</span>
               </a>
             </li>
           </ul>
