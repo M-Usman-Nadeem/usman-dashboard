@@ -1,10 +1,10 @@
 import React from "react";
-
+import './cards.css'
 const cards = () => {
   return (
     <>
-      <section className="flex items-center justify-center gap-[31px] mb-6 flex-wrap  w-full ">
-        <div className="border-2  border-[#ECEEF7]    rounded-md  w-[249px] pl-[33px]  pt-[25px]  pb-[25px]  flex items-center  justify-center lg:px-0 px-6 bg-white  md:mt-4">
+      <section className="  gap-[31px] mb-6 parent  w-full ">
+        <div className="border-2  border-[#ECEEF7]    rounded-md  customWidth pl-[33px]  pt-[25px]  pb-[25px]  flex items-center  justify-center lg:px-0 px-6 bg-white  md:mt-4">
           <div className="">
             <div className="flex items-center  pb-[13px] justify-between gap-[13px]">
         
@@ -19,7 +19,7 @@ const cards = () => {
             <p className="text-[14px] text-gray-500 x">Employee</p>
           </div>
         </div>
-        <div className="border-[#ECEEF7] border-2 rounded-md   w-[249px] pl-[33px]  pt-[25px]  pb-[25px]  flex items-center  justify-center lg:px-0 px-6 bg-white  md:mt-4">
+        <div className="border-[#ECEEF7] border-2 rounded-md   customWidth pl-[33px]  pt-[25px]  pb-[25px]  flex items-center  justify-center lg:px-0 px-6 bg-white  md:mt-4">
           <div className="">
             <div className="flex items-center  pb-[13px] justify-between gap-[13px]">
         
@@ -35,7 +35,7 @@ const cards = () => {
           </div>
         </div>
         
-        <div className="border-[#ECEEF7] border-2 rounded-md  w-[249px] pl-[33px]  pt-[25px]  pb-[25px]  flex items-center  justify-center lg:px-0 px-6 bg-white  md:mt-4">
+        <div className="border-[#ECEEF7] border-2 rounded-md  customWidth pl-[33px]  pt-[25px]  pb-[25px]  flex items-center  justify-center lg:px-0 px-6 bg-white  md:mt-4">
           <div className="">
             <div className="flex items-center  pb-[13px] justify-between gap-[13px]">
         
@@ -50,7 +50,7 @@ const cards = () => {
             <p className="text-[14px] text-gray-500 x">Employee</p>
           </div>
         </div>
-        <div className="border-[#ECEEF7] border-2 rounded-md   w-[277px] pl-[33px] h-[159px]  pt-[25px]  pb-[25px]  flex items-center  justify-center lg:px-0 px-6 bg-white  md:mt-4">
+        <div className="border-[#ECEEF7] border-2 rounded-md  differentCustomWidth pl-[33px] h-[159px]  pt-[25px]  pb-[25px]  flex items-center  justify-center lg:px-0 px-6 bg-white  md:mt-4">
           <div className="">
             <div className="flex items-center  pb-[13px] justify-between gap-[13px]">
         
