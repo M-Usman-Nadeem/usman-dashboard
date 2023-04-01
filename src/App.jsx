@@ -10,7 +10,7 @@ function App() {
     <>
         
       <Siderbar />
-      <div className="md:ml-[273px] p-[25px]    ">
+      <div className="md:ml-[273px] !p-[25px]    ">
 
         <Cards />
 
@@ -18,7 +18,7 @@ function App() {
        
         </PieChart>
      
-<div className="flex flex-col xl:flex-row mt-6 gap-6  justify-center items-center ">
+<div className="flex flex-col lg:flex-row mt-6 gap-6   items-center justify-center xl:justify-start xl:items-start  ">
 
         <Status />
         <LineChart></LineChart>

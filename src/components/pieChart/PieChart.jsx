@@ -39,16 +39,16 @@ export default ()=>{
         },
       },
       series: [ 65,35],
-      chart: {
-        height: '400'
-    }
+    //   chart: {
+    //     height: '230px'
+    // }
     
 
     };
     
 
     return (
-      <div className="    border-solid h-[342px] max-w-[310px]   border-opacity-100  border-[1.81193px]">
+      <div className="   rounded-md bg-[#FFFFFF]  border-solid !h-[343px] w-full lg:max-w-[310px]   border-opacity-100  border-[1.81193px]">
         <div className="row h-full   ">
           <div className="py-[20px]  h-full px-[27px] flex flex-col justify-center items-center relative">
               <p className="self-start pb-[19px] font-bold text-[20px] whitespace-nowrap" >
@@ -63,15 +63,15 @@ export default ()=>{
               height='230px'
               />
 
-                  <div className="flex gap-[10px] p-[5px] lg:p-[10px] absolute left-[-5%]  rounded-[10px] bottom-[65%] bg-[#FFFFFF] text-[20px] font-bold">
+                  <div className="flex gap-[6px] sm:gap-[10px] p-[5px] lg:p-[10px] absolute left-[5%] lg:left-[-5%]  justify-center items-center  rounded-[10px] bottom-[65%] bg-[#FFFFFF] text-[20px] font-bold">
 
 <img src={img1} alt="" />
-<p>35%</p>
+<p  >35%</p>
  </div>
- <div className=" flex gap-[10px]  absolute bottom-[19%] sm:bottom-[12%] p-[5px] lg:p-[10px] right-[-5%]  rounded-[10px] bg-[#FFFFFF] text-[20px] font-bold">
+ <div className=" gap-[6px] sm:gap-[10px]  absolute bottom-[22%]  lg:bottom-[12%] p-[5px] lg:p-[10px] right-[5%] lg:right-[-5%] flex justify-center items-center rounded-[10px] bg-[#FFFFFF] text-[20px] font-bold">
    
 <img src={img2} alt="" />
-<p>65%</p>
+<p >65%</p>
  </div>
 
               </div>

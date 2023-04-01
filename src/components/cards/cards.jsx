@@ -23,7 +23,7 @@ const cards = () => {
           <div className="">
             <div className="flex items-center  pb-[13px] justify-between gap-[13px]">
         
-                <div className="font-bold ">Total Employees</div>
+                <div className="font-bold ">Job View</div>
               <div className="  text-green-500 flex items-center justify-center space-x-1 px-1 bg-[#23C10A] bg-opacity-20 rounded-full">
                   <ion-icon name="trending-up-outline"></ion-icon>
 
@@ -39,7 +39,7 @@ const cards = () => {
           <div className="">
             <div className="flex items-center  pb-[13px] justify-between gap-[13px]">
         
-                <div className="font-bold ">Total Employees</div>
+                <div className="font-bold ">Job Applied</div>
               <div className="  text-green-500 flex items-center justify-center space-x-1 px-1 bg-[#23C10A] bg-opacity-20 rounded-full">
                   <ion-icon name="trending-up-outline"></ion-icon>
 

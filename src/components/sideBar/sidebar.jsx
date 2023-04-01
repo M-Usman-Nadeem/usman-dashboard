@@ -72,7 +72,7 @@ const sidebar = () => {
           </div>
           <img src={svg3} alt="" />
         </div>
-        <div className="py-4 overflow-y-auto font-bold text-[1.1875rem]">
+        <div className="py-4p overflow-y-auto font-bold text-[1.1875rem]">
           <ul className="flex flex-col gap-10  ">
             <li>
               <a

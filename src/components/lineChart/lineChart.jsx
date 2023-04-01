@@ -79,7 +79,7 @@ class App extends Component {
 
   render() {
     return (
-          <div className=" border-2 border-[#ECEEF7]  bg-[#FFFFFF] mt-6 ">
+          <div className=" border-2 border-[#ECEEF7] rounded-md  bg-[#FFFFFF] mt-6 ">
             <div className="flex font-bold justify-between p-[33px] ">
 
           <p className="text-[22px] ">Job Statistics</p>
